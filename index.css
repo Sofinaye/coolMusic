@@ -103,3 +103,47 @@
   text-decoration: none;
   color: #777;
 }
+
+.trending {
+    background-image: linear-gradient(to right,
+   rgba(255, 255, 255, 0.884), 
+   #b6adaa5d  ), 
+   url("./img/photo-1510915361894-db8b60106cb1.jpeg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.trending p {
+  padding: 2rem 0 0 1rem;
+  color: #777;
+}
+
+.artist-header {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.artist-header span {
+  display: block;
+}
+
+.artist-btns {
+  padding: 1rem;
+}
+
+.btn1 {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  border: 1px black solid;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.btn2 {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  border: 1px black solid;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
