@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  gap: 1rem;
+  height: 100vh;
+}
+
+.side-bar {
+  width: 30vw;
+  font-size: 1.3rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+
+}
+
+.navbar-brand {
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: rgb(180, 122, 13);
+}
+
+.navbar-list {
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nabar-list-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.nabar-list-item i {
+  color: #776;
+}
+
+.heading-sub{
+  font-size: 1rem;
+  font-weight: 100;
+  color: #777;
+}
+
+.front-page {
+  background: #f1f1fb;
+  padding: 3rem;
+  width: 70vw;
+}
+
+.front-nav {
+  display: flex;
+  padding-bottom: 3rem;
+  align-items: center;
+  gap: 2rem;
+}
+
+.front-nav-item span {
+  display: flex;
+  gap: 2rem;
+}
+
+.search {
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.front-disc {
+  font-family: 'Inter';
+  font-weight: 300;
+}
+
+.front-disc i {
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
+  color: rgb(201, 60, 5);
+}
+
+.front-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.front-heading-sub {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.front-heading-container a {
+  text-decoration: none;
+  color: #777;
+}
+
+.trending {
+    background-image: linear-gradient(to right,
+   rgba(255, 255, 255, 0.884), 
+   #b6adaa5d  ), 
+   url("./img/photo-1510915361894-db8b60106cb1.jpeg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.trending p {
+  padding: 2rem 0 0 1rem;
+  color: #777;
+}
+
+.artist-header {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.artist-header span {
+  display: block;
+}
+
+.artist-btns {
+  padding: 1rem 0 2rem 1rem;
+}
+
+.btn1 {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  border: 1px black solid;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+.btn2 {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  border: 1px black solid;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.playlist-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.playlist-header {
+  font-size: 2rem;
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+.playlist-head p {
+  color: #777;
+}
+
+.playlist {
+  display: flex;
+  justify-content: space-around;
+}
+
+.playlist span {
+  font-size: 1.4rem;
+  color: #777;
+}
+
+.song-details {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+
+.song-details span {
+  font-size: 1.4rem;
+  color: rgb(63, 58, 58);
+}
