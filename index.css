@@ -36,5 +36,10 @@
   gap: 1.5rem;
 }
 
+.nabar-list-item {
+  display: flex;
+  gap: 1rem;
+}
+
 .front-page {
 }
