@@ -6,6 +6,7 @@
 .main-container {
   display: flex;
   gap: 1rem;
+  height: 100vh;
 }
 
 .side-bar {
@@ -52,20 +53,19 @@
 
 .front-page {
   background: #f1f1fb;
-
+  padding: 3rem;
   width: 70vw;
 }
 
 .front-nav {
   display: flex;
-  padding: 1rem;
+  padding-bottom: 3rem;
   align-items: center;
   gap: 2rem;
 }
 
 .front-nav-item span {
   display: flex;
-  padding: 0 2rem;
   gap: 2rem;
 }
 
@@ -74,4 +74,32 @@
   border-radius: 20px;
   border: none;
   font-size: 1.3rem;
+}
+
+.front-disc {
+  font-family: 'Inter';
+  font-weight: 300;
+}
+
+.front-disc i {
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
+  color: rgb(201, 60, 5);
+}
+
+.front-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.front-heading-sub {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.front-heading-container a {
+  text-decoration: none;
+  color: #777;
 }
