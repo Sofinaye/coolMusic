@@ -10,6 +10,30 @@
 }
 
 .side-bar {
+  width: 30vw;
+  font-size: 1.3rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+
+}
+
+.navbar-brand {
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: rgb(180, 122, 13);
+}
+
+.navbar-list {
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .front-page {
