@@ -41,5 +41,16 @@
   gap: 1rem;
 }
 
+.nabar-list-item i {
+  color: #776;
+}
+
+.heading-sub{
+  font-size: 1rem;
+  font-weight: 100;
+  color: #777;
+}
+
 .front-page {
+  background: #f1f1fb;
 }
